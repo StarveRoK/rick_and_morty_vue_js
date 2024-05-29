@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "asd": "npm run deploy",
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
@@ -11,11 +12,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21",
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "git": "^0.1.5",
+    "npm-git-install": "^0.3.0",
+    "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "gh-pages": "^6.1.1",
     "vite": "^5.2.8"
   }
 }
