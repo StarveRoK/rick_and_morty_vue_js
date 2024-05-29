@@ -153,6 +153,7 @@ nav{
   gap: 10px;
   width: 95%;
   margin: 0 auto;
+  border-bottom: 1px solid #dcdcdc;
 }
 
 .block{
@@ -405,6 +406,27 @@ footer button.disabled{
   color: gray;
   transition: 0.2s;
 
+}
+
+
+@media only screen and (max-width: 768px) {
+  span.main_name {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(32, 35, 41);
+    margin: 20px 0;
+  }
+
+  div.card{
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+  }
+
+  div.image_div{
+    width: 100%;
+    height: auto;
+  }
 }
 
 </style>
